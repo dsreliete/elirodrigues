@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+  .media {
+    display: block !important; }
+  .img-responsive {
+    margin: 0 120px;
+    margin-bottom: 50px;
+    width: 55%;
+    height: 55%; } }
+
+.container-nomargin {
+  margin: 0 !important; }
+
+.navbar {
+  background-color: #FDCE00; }
+
+.navbar .navbar-brand,
+.navbar .navbar-text {
+  color: black;
+  font-weight: bold; }
+
+.navbar-nav .nav-item .nav-link {
+  color: black; }
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus {
+  color: red;
+  text-decoration: underline; }
+
+input[type=radio] {
+  display: none; }
+
+#flags {
+  width: 50px;
+  margin: 0;
+  padding: 0; }
+
+#header {
+  height: 750px;
+  background-image: url("https://raw.githubusercontent.com/hayanisaid/bootstrap4-website/master/images/headerback.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.overlay {
+  min-height: 100%;
+  min-width: 100%;
+  background: rgba(244, 244, 244, 0.7); }
+
+.row > .col-sm-12 {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+  .row > .col-sm-12 h1 {
+    text-align: start;
+    color: black; }
+  .row > .col-sm-12 h3 {
+    line-height: 2.2;
+    margin-bottom: 90px;
+    text-align: start;
+    color: #494949; }
+
+.row-content {
+  padding: 50px 0;
+  min-height: 100%;
+  min-width: 100%; }
+
+section {
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.5); }
+
+.site-footer {
+  border-bottom: 1px ridge;
+  background-image: linear-gradient(#FDCE00, white);
+  padding: 20px 0; }
+
+h5 {
+  margin-left: 64px;
+  color: white;
+  text-decoration: none; }
+
+#aboutme {
+  background-color: #2b2929; }

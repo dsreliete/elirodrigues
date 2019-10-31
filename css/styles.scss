@@ -1,0 +1,118 @@
+$color-primary: #FDCE00;
+$color-secondary: red;
+$color-pale: rgb(139, 139, 141);
+$color-mid: #494949;
+$color-dark:black;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-transparent-white: rgba(244, 244, 244, 0.7);
+
+@media screen and (max-width : 768px){
+    .media {
+        display: block !important;
+    }
+
+    .img-responsive {
+        margin: 0 120px;
+        margin-bottom: 50px;
+        width: 55%;
+        height: 55%;
+    }
+}
+
+.container-nomargin {
+    margin: 0 !important; 
+}
+
+.navbar {
+    background-color: $color-primary;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: $color-dark;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: $color-dark;
+}
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus {
+    color: $color-secondary;
+    text-decoration: underline;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+#flags {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 750px;
+    background-image: url('https://raw.githubusercontent.com/hayanisaid/bootstrap4-website/master/images/headerback.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    min-height: 100%;
+    min-width: 100%;
+    background: $color-transparent-white;
+}
+
+.row > .col-sm-12 { 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    h1 {
+        text-align: start;
+        color: $color-dark;
+    }
+
+    h3 {
+        line-height: 2.2;
+        margin-bottom: 90px;
+        text-align: start;
+        color: $color-mid;
+    }
+}
+
+.row-content {
+    padding: 50px 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+section {
+    padding-top: 100px;
+    background: $color-transparent-black;
+}
+
+.site-footer {
+    border-bottom: 1px ridge;
+    background-image: linear-gradient($color-primary, white);
+    padding: 20px 0; 
+}
+
+h5 {
+    margin-left: 64px;
+    color: white;
+    text-decoration: none;
+}
+
+#aboutme {
+    background-color: #2b2929;
+}
+
+
+
+
+
+
