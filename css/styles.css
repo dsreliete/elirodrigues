@@ -78,5 +78,14 @@ h5 {
   color: white;
   text-decoration: none; }
 
-#aboutme {
+#aboutme, #projects {
   background-color: #2b2929; }
+
+#experience {
+  background-color: white; }
+
+#education {
+  background-color: #c4c4c7; }
+
+#contact {
+  background-color: rgba(255, 0, 0, 0.5); }

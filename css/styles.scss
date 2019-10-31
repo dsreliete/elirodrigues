@@ -1,6 +1,6 @@
 $color-primary: #FDCE00;
 $color-secondary: red;
-$color-pale: rgb(139, 139, 141);
+$color-pale: rgb(196, 196, 199);
 $color-mid: #494949;
 $color-dark:black;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
@@ -107,10 +107,21 @@ h5 {
     text-decoration: none;
 }
 
-#aboutme {
+#aboutme, #projects {
     background-color: #2b2929;
 }
 
+#experience {
+    background-color: white;
+}
+
+#education {
+    background-color: $color-pale;
+}
+
+#contact {
+    background-color: rgba(255, 0, 0, 0.5);
+}
 
 
 
