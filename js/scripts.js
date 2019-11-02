@@ -2,13 +2,13 @@ $().ready(function (){
 
     $('#header').height($(window).height());
 
-    $('#btnEnglish').change(function (){
+    $('#btn-english').click(function (){
         console.log("ta funfando english");
-        // window.location.href="../index.html";
+        window.location.href="../index.html";
     });
 
-    $('#btnPortuguese').change(function (){
+    $('#btn-portuguese').click(function (){
         console.log("ta funfando br");
-        // window.location.href="../index2.html";
+        window.location.href="../index2.html";
     });
 })
