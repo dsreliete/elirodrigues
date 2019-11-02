@@ -89,3 +89,8 @@ h5 {
 
 #contact {
   background-color: rgba(255, 0, 0, 0.5); }
+
+.card {
+  border-color: orangered; }
+  .card .card-header {
+    background-color: orangered; }
