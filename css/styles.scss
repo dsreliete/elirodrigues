@@ -11,6 +11,7 @@ $color-quartenary:  rgba(255, 0, 0, 0.5);
 @media screen and (max-width : 768px){
     .media {
         display: block !important;
+        text-align: center;
     }
 
     .img-responsive {
@@ -18,20 +19,6 @@ $color-quartenary:  rgba(255, 0, 0, 0.5);
         margin-bottom: 50px;
         width: 55%;
         height: 55%;
-    }
-
-    .media {
-        text-align: center;
-        .img {
-            width: 40%;
-            height: 40%;
-            margin-bottom: 15px;
-        }
-
-        #labs-img {
-            width: 30%;
-            height: 30%;
-        }
     }
 }
 
@@ -144,4 +131,16 @@ h5 {
     .card-header{
         background-color: $color-terciary;
     }
+}
+
+.media .image-link {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    align-self: center;
+}
+
+.image-link .img {
+    display: inline;
+    width: 100%;
 }

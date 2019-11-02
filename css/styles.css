@@ -1,20 +1,12 @@
 @media screen and (max-width: 768px) {
   .media {
-    display: block !important; }
+    display: block !important;
+    text-align: center; }
   .img-responsive {
     margin: 0 120px;
     margin-bottom: 50px;
     width: 55%;
-    height: 55%; }
-  .media {
-    text-align: center; }
-    .media .img {
-      width: 40%;
-      height: 40%;
-      margin-bottom: 15px; }
-    .media #labs-img {
-      width: 30%;
-      height: 30%; } }
+    height: 55%; } }
 
 .container-nomargin {
   margin: 0 !important; }
@@ -102,3 +94,13 @@ h5 {
   border-color: orangered; }
   .card .card-header {
     background-color: orangered; }
+
+.media .image-link {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  align-self: center; }
+
+.image-link .img {
+  display: inline;
+  width: 100%; }
