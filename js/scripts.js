@@ -2,11 +2,14 @@ $().ready(function (){
 
     $('#header').height($(window).height());
 
-    $('#english').change(function (){
-        console.log("ta funfando english"); 
+    $('#btnEnglish').change(function (){
+        console.log("ta funfando english");
+        $(this).options[1].selected = true;
+        window.location.href="../index.html";
     });
 
-    $('#portuguese').change(function (){
-        console.log("ta funfando br");  
+    $('#btnPortuguese').change(function (){
+        console.log("ta funfando br");
+        window.location.href="../index copy.html";
     });
 })
