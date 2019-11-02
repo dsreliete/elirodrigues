@@ -4,12 +4,11 @@ $().ready(function (){
 
     $('#btnEnglish').change(function (){
         console.log("ta funfando english");
-        $(this).options[1].selected = true;
-        window.location.href="../index.html";
+        // window.location.href="../index.html";
     });
 
     $('#btnPortuguese').change(function (){
         console.log("ta funfando br");
-        window.location.href="../index copy.html";
+        // window.location.href="../index2.html";
     });
 })

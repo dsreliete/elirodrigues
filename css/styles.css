@@ -5,7 +5,16 @@
     margin: 0 120px;
     margin-bottom: 50px;
     width: 55%;
-    height: 55%; } }
+    height: 55%; }
+  .media {
+    text-align: center; }
+    .media .img {
+      width: 40%;
+      height: 40%;
+      margin-bottom: 15px; }
+    .media #labs-img {
+      width: 30%;
+      height: 30%; } }
 
 .container-nomargin {
   margin: 0 !important; }
@@ -74,7 +83,6 @@ section {
   padding: 20px 0; }
 
 h5 {
-  margin-left: 64px;
   color: white;
   text-decoration: none; }
 
