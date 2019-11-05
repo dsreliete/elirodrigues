@@ -10,7 +10,7 @@
     "scss": "node-sass -o css/ css/",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin index2.html -d dist --htmlmin -o dist/index2.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
