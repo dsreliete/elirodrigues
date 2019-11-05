@@ -1,7 +1,7 @@
 {
   "name": "elirodrigues",
   "version": "1.0.0",
-  "description": "This is a website for my personal profile site",
+  "description": "This is a website for my personal profile",
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",
