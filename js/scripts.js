@@ -1,14 +1,24 @@
 $().ready(function (){
 
-    $('#header').height($(window).height());
+    $("#header").height($(window).height());
 
-    $('#btn-english').click(function (){
-        console.log("ta funfando english");
-        window.location.href="../index.html";
+    $("#btn-english").click(function (){
+        window.location="../index.html";
     });
 
-    $('#btn-portuguese').click(function (){
-        console.log("ta funfando br");
-        window.location.href="../index2.html";
+    $("#btn-portuguese").click(function (){
+        window.location="../index2.html";
     });
+
+    $("#childMilesApp").click(function() {
+        window.open("https://github.com/dsreliete/MilhasInfantis");
+    })
+
+    $("#weatherApp").click(function() {
+        window.open("https://github.com/dsreliete/WeatherApp");
+    })
+
+    $("fiveThingsApp").click(function() {
+        window.open("https://github.com/dsreliete/Five-Things-Android-App");
+    })
 })

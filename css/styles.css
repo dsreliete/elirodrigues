@@ -75,7 +75,7 @@ h5 {
   color: white;
   text-decoration: none; }
 
-#aboutme, #projects {
+#aboutme, #projects, #contact {
   background-color: #2b2929; }
 
 #experience {
@@ -83,9 +83,6 @@ h5 {
 
 #education {
   background-color: #c4c4c7; }
-
-#contact {
-  background-color: rgba(255, 0, 0, 0.5); }
 
 .card {
   border-color: orangered; }
