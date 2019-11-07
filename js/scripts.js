@@ -7,7 +7,7 @@ $().ready(function (){
     });
 
     $("#btnPortuguese").click(function (){
-        window.location="../index2.html";
+        window.location.href="../index2.html";
     });
 
     $("#childMilesApp").click(function() {
