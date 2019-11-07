@@ -2,7 +2,11 @@ $().ready(function (){
 
     $("#header").height($(window).height());
 
-    $("#btnEnglish").click(function (){
+    $(".navbar-nav>li>a").on("click", function() {
+        $(".navbar-collapse").collapse("hide");
+    })
+
+    $("#btnEnglish").click(function () {
         window.location="../index.html";
     });
 
