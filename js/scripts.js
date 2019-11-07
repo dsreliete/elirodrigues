@@ -2,7 +2,11 @@ $().ready(function (){
 
     $("#header").height($(window).height());
 
-    $(".navbar").on("click", function() {
+    $(".navbar-nav").on("click", function() {
+        $(".navbar-collapse").collapse("hide");
+    })
+
+    $(".navbar-brand").on("click", function() {
         $(".navbar-collapse").collapse("hide");
     })
 
