@@ -16,7 +16,7 @@
 
 <body>
     <div class="container-nomargin">
-        <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
             <a class="navbar-brand justify-content-start" href="#"><img class="mr-4" src="img/logoEli.png" height="30"
                     width="30" />Eli
                 Rodrigues</a>
@@ -31,8 +31,8 @@
                     <li class="nav-item"><a class="nav-link" href="#project">Projetos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                 </ul>
-                <div class="btn-flag mr-3"><img id="btn-english" src="img/usa-flag.png" alt="english version"/></div>
-                <div class="btn-flag"><img id="btn-portuguese" src="img/brazil-flag.png" alt="portuguese version"></div>
+                <div class="btn-flag mr-3"><img id="btnEnglish" src="img/usa-flag.png" alt="english version"/></div>
+                <div class="btn-flag"><img id="btnPortuguese" src="img/brazil-flag.png" alt="portuguese version"></div>
             </div>
         </nav>
     </div>
@@ -223,68 +223,86 @@
 
     <section id="project">
         <div class="container">
-            <h1 class="text-center my-3">Projetos Pessoais</h1>
-            <p class="text-center my-5">Você pode observar algumas coisas que eu desenvolvo no Github.</p>
+            <h1 class="text-center text-white my-3">Projetos Pessoais</h1>
+            <p class="text-center text-white my-5">Você pode observar algumas coisas que eu desenvolvo no Github.</p>
             <div class="row row-content">
                 <div class="col">
                     <div class="card-deck">
-                        <div class="card bg-warning border-warning text-center">
-                            <img src="img/concrete.png" class="card-img-top" alt="...">
-                            <div class="card-body bg-white">
-                                <h5 class="card-title text-dark">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
+                        <div id="childMilesApp" class="card mb-4 bg-warning border-warning text-center">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vVPkA76lzbE" allowfullscreen></iframe>
                             </div>
-                            <div class="card-footer">Python</div>
+                            <div class="card-body bg-white">
+                                <h5 class="card-title text-dark">App Milhas Infantis</h5>
+                                <p class="card-text">É um app Android nativo que facilita o gerenciamento de pais ou responsáveis sobre as tarefas diárias de crianças.</p>
+                            </div>
+                            <div class="card-footer">Android</div>
                         </div>
-                        <div class="card bg-warning border-warning text-center">
-                                <img src="img/labs.png" class="card-img-top" alt="...">
+                        <div class="w-100 d-md-none"><!-- wrap every 1 on sm--></div>
+                        <div id="weatherApp" class="card mb-4 bg-warning border-warning text-center">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe src="https://www.youtube.com/embed/nB46EEZIhA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                                 <div class="card-body bg-white">
-                                    <h5 class="card-title text-dark">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                        of the card's content.</p>
-                                </div>
-                                <div class="card-footer">Node JS</div>
-                        </div>
-                        <div class="card bg-warning border-warning text-center">
-                                <img src="img/eucircular.png" class="card-img-top" alt="...">
-                                <div class="card-body bg-white">
-                                    <h5 class="card-title text-dark">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                        of the card's content.</p>
+                                    <h5 class="card-title text-dark">App Weather</h5>
+                                    <p class="card-text">É um app Android nativo, desenvolvido em Kotlin, que retorna dados de previsão de tempo por uma semana baseado no CEP de entrada.</p>
                                 </div>
                                 <div class="card-footer">Android</div>
                         </div>
-                    </div>
-                    <div class="card-deck mt-5">
-                            <div class="card bg-warning border-warning text-center">
-                                <img src="img/concrete.png" class="card-img-top" alt="...">
+                        <div class="w-100 d-md-none"><!-- wrap every 1 on sm--></div>
+                        <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+                        <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 2 on md--></div>
+                        <div id="fiveThingsApp" class="card mb-4 bg-warning border-warning text-center">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/95k3M1H-hPU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                                 <div class="card-body bg-white">
-                                    <h5 class="card-title text-dark">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                        of the card's content.</p>
+                                    <h5 class="card-title text-dark">App 5 Coisas para Aprender</h5>
+                                    <p class="card-text">É um app Android nativo, desenvolvido especialmente para minha mãe ler sempre que precisar usar o computador para conectar na internet ou acessar outras aplicações. ALém disso, é possível enviar um e-mail requerendo novas informações.</p>
                                 </div>
-                                <div class="card-footer">Python</div>
-                            </div>
-                            <div class="card bg-warning border-warning text-center">
-                                    <img src="img/labs.png" class="card-img-top" alt="...">
-                                    <div class="card-body bg-white">
-                                        <h5 class="card-title text-dark">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.</p>
-                                    </div>
-                                    <div class="card-footer">Node JS</div>
-                            </div>
-                            <div class="card bg-warning border-warning text-center">
-                                    <img src="img/eucircular.png" class="card-img-top" alt="...">
-                                    <div class="card-body bg-white">
-                                        <h5 class="card-title text-dark">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                            of the card's content.</p>
-                                    </div>
-                                    <div class="card-footer">Android</div>
-                            </div>
+                                <div class="card-footer">Android</div>
                         </div>
+                        <div class="w-100 d-md-none"><!-- wrap every 1 on sm--></div>
+                        <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 3 on lg--></div>
+                        <div class="w-100 d-none d-xl-block d-xl-none"><!-- wrap every 3 on xl--></div>
+                        <div id="heroesApi" class="card mb-4 bg-warning border-warning text-center">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/cXnzJFP65a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body bg-white">
+                                <h5 class="card-title text-dark">API Heroes</h5>
+                                <p class="card-text">É uma API que permite você adicionar, atualizar e deletar dados de heróis.</p>
+                            </div>
+                            <div class="card-footer">Node JS</div>
+                        </div>
+                        <div class="w-100 d-md-none"><!-- wrap every 1 on sm--></div>
+                        <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+                        <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 2 on md--></div>
+                        <div id="blogApp" class="card mb-4 bg-warning border-warning text-center">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/cXnzJFP65a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body bg-white">
+                                <h5 class="card-title text-dark">App Blog </h5>
+                                <p class="card-text">É um website que permite um blogger escrever textos e outros usuários fazer comentários. Além disso, o conteúdo pode ser gerenciado pela interface Admin.</p>
+                            </div>
+                            <div class="card-footer">Python</div>
+                        </div>
+                        <div class="w-100 d-md-none"><!-- wrap every 1 on sm--></div>
+                        <div id="pollsApp" class="card mb-4 bg-warning border-warning text-center">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/cXnzJFP65a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body bg-white">
+                                <h5 class="card-title text-dark">Polls App</h5>
+                                <p class="card-text">É um website que disponibiliza votações, onde os usuários tem a chance de escolher uma opção desejada. Além disso, o conteúdo pode ser gerenciado pela interface Admin.</p>
+                            </div>
+                            <div class="card-footer">Python</div>
+                        </div>
+                        <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 3 on lg--></div>
+                        <div class="w-100 d-none d-xl-block d-xl-none"><!-- wrap every 3 on xl--></div>
+                        <div class="w-100 d-md-none"><!-- wrap every 1 on sm--></div>
+                    </div> 
                 </div>
             </div>
         </div>        

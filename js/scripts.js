@@ -2,11 +2,11 @@ $().ready(function (){
 
     $("#header").height($(window).height());
 
-    $("#btn-english").click(function (){
+    $("#btnEnglish").click(function (){
         window.location="../index.html";
     });
 
-    $("#btn-portuguese").click(function (){
+    $("#btnPortuguese").click(function (){
         window.location="../index2.html";
     });
 
