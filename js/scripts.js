@@ -11,11 +11,11 @@ $().ready(function (){
     })
 
     $("#btnEnglish").click(function () {
-        window.location="../index.html";
+        window.location="https://dsreliete.github.io/elirodrigues/index.html";
     });
 
     $("#btnPortuguese").click(function (){
-        window.location.href="../index2.html";
+        window.location.href="https://dsreliete.github.io/elirodrigues/index2.html";
     });
 
     $("#childMilesApp").click(function() {
