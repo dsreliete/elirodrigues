@@ -6,7 +6,7 @@ $().ready(function (){
         $(".navbar-collapse").collapse("hide");
     })
 
-    $(".navbar-brand").on("click", function() {
+    $(".navbar > navbar-brand > img").on("click", function() {
         $(".navbar-collapse").collapse("hide");
     })
 
