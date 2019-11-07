@@ -6,39 +6,39 @@ $().ready(function (){
         $(".navbar-collapse").collapse("hide");
     })
 
-    $(".navbar > navbar-brand > img").on("click", function() {
+    $(".navbar > .navbar-brand").on("click", function() {
         $(".navbar-collapse").collapse("hide");
     })
 
-    $("#btnEnglish").click(function () {
+    $("#btnEnglish").on("click", function () {
         window.location="https://dsreliete.github.io/elirodrigues/index.html";
     });
 
-    $("#btnPortuguese").click(function (){
+    $("#btnPortuguese").on("click", function (){
         window.location.href="https://dsreliete.github.io/elirodrigues/index2.html";
     });
 
-    $("#childMilesApp").click(function() {
+    $("#childMilesApp").on("click", function() {
         window.open("https://github.com/dsreliete/MilhasInfantis");
     })
 
-    $("#weatherApp").click(function() {
+    $("#weatherApp").on("click", function() {
         window.open("https://github.com/dsreliete/WeatherApp");
     })
 
-    $("#fiveThingsApp").click(function() {
+    $("#fiveThingsApp").on("click", function() {
         window.open("https://github.com/dsreliete/Five-Things-Android-App");
     })
 
-    $("#pollsApp").click(function(){
+    $("#pollsApp").on("click", function(){
         window.open("https://github.com/dsreliete/Polls");
     })
 
-    $("#heroesApi").click(function(){
+    $("#heroesApi").on("click", function(){
         window.open("https://github.com/dsreliete/Nucamp");
     })
 
-    $("#blogApp").click(function(){
+    $("#blogApp").on("click", function(){
         window.open("https://github.com/dsreliete/Blog");
     })
 })

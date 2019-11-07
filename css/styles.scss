@@ -20,8 +20,37 @@ $color-quartenary:  rgba(255, 0, 0, 0.5);
         width: 55%;
         height: 55%;
     }
+
+    .row > .col-sm-12 { 
+        h1 {
+            margin: 32px;
+            text-align: start;
+            color: $color-dark;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+    
+        h3 {
+            margin: 32px;
+            font-size: x-large;
+            margin-bottom: 50px;
+            text-align: start;
+            color: $color-mid;
+        }
+    
+        .btn-social-icon {
+            margin: 48px;
+        }
+    }
 }
 
+@media screen and (min-width: 768px) {
+    .row > .col-sm-12 { 
+        .btn-social-icon {
+            margin: 90px;
+        }
+    }
+}
 .container-nomargin {
     margin: 0 !important; 
 }
