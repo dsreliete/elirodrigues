@@ -3,10 +3,10 @@
     display: block !important;
     text-align: center; }
   .img-responsive {
-    margin: 0 120px;
+    justify-content: center;
     margin-bottom: 50px;
-    width: 55%;
-    height: 55%; }
+    width: 30%;
+    height: 30%; }
   .row > .col-sm-12 h1 {
     margin: 32px;
     text-align: start;
@@ -24,7 +24,10 @@
 
 @media screen and (min-width: 768px) {
   .row > .col-sm-12 .btn-social-icon {
-    margin: 90px; } }
+    margin: 90px; }
+  #txt-about {
+    margin-left: 90px;
+    justify-content: right; } }
 
 .container-nomargin {
   margin: 0 !important; }

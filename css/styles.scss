@@ -15,10 +15,10 @@ $color-quartenary:  rgba(255, 0, 0, 0.5);
     }
 
     .img-responsive {
-        margin: 0 120px;
+        justify-content: center;
         margin-bottom: 50px;
-        width: 55%;
-        height: 55%;
+        width: 30%;
+        height: 30%;
     }
 
     .row > .col-sm-12 { 
@@ -49,6 +49,11 @@ $color-quartenary:  rgba(255, 0, 0, 0.5);
         .btn-social-icon {
             margin: 90px;
         }
+    }
+
+    #txt-about {
+        margin-left: 90px;
+        justify-content: right;
     }
 }
 .container-nomargin {
