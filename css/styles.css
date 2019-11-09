@@ -40,11 +40,21 @@
   color: black;
   font-weight: bold; }
 
-.navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link:link {
   color: black; }
 
-.navbar-nav .nav-item .nav-link:hover,
-.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:visited {
+  color: black;
+  text-decoration: underline; }
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: red;
+  text-decoration: underline; }
+
+.navbar-nav .nav-item .nav-link:active {
+  color: red;
+  text-decoration: underline; }
+
 .navbar-nav .nav-item .nav-link:focus {
   color: red;
   text-decoration: underline; }
