@@ -119,3 +119,6 @@ h5 {
 .image-link .img {
   display: inline;
   width: 100%; }
+
+#icon-footer {
+  margin-right: 16px; }
