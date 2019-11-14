@@ -35,7 +35,7 @@ $().ready(function (){
     })
 
     $("#heroesApi").on("click", function(){
-        window.open("https://github.com/dsreliete/Nucamp");
+        window.open("https://github.com/dsreliete/heroes-api");
     })
 
     $("#blogApp").on("click", function(){
