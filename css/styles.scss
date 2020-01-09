@@ -8,7 +8,8 @@ $color-transparent-white: rgba(244, 244, 244, 0.7);
 $color-terciary: orangered;
 $color-quartenary:  rgba(255, 0, 0, 0.5);
 
-@media screen and (max-width: 768px) {
+// 767px and down
+@include media-breakpoint-down(sm) {
     .media {
         display: block !important;
         text-align: center;
@@ -44,11 +45,29 @@ $color-quartenary:  rgba(255, 0, 0, 0.5);
     }
 }
 
-@media screen and (min-width: 768px) {
+// Medium devices tablets, 768px and up
+@include media-breakpoint-up(md) {
     .row > .col-sm-12 { 
         .btn-social-icon {
-            margin: 40px;
+            margin: 30px;
         }
+
+        h1 {
+            margin: 32px;
+            text-align: start;
+            color: $color-dark;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+    
+        h3 {
+            margin: 32px;
+            font-size: x-large;
+            margin-bottom: 50px;
+            text-align: start;
+            color: $color-mid;
+        }
+    
     }
 
     #txt-about {
