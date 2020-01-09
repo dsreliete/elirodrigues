@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 768px) {
   .row > .col-sm-12 .btn-social-icon {
-    margin: 90px; }
+    margin: 40px; }
   #txt-about {
     margin-left: 90px;
     justify-content: right; } }
